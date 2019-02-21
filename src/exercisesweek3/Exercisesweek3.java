@@ -25,8 +25,8 @@ public class Exercisesweek3 {
       
 
 
-        System.out.println("Welcome to the Tally Counter application");
-        System.out.println("1 = Get Number, 2 = First Number, 3 = Find the biggest Number, 4 = Are they equal?, 5 = add new numbers, 6 = display all 0 = Exit");
+        System.out.println("Select what option you want to select");
+        System.out.println("1 = Get Number, 2 = First Number, 3 = Find the biggest Number, 4 = Are they equal?, 5 = add new numbers, 6 = GCD,  7 = display all 0 = Exit");
  
         
         
@@ -42,9 +42,11 @@ public class Exercisesweek3 {
             } else if (choice == 4) {
                 n1.equal();
              } else if (choice == 5) {
-                //n1.GCD();
-                n1.addnumbers();
+                 n1.addnumbers();
                 } else if (choice == 6) {
+                n1.GCD();
+         
+                } else if (choice == 7) {
                 n1.toString();
                  n1.display();
                 }
